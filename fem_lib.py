@@ -94,7 +94,7 @@ class Mesh2D(object):
         # Create the x-space.
         x_space = np.linspace(self.x_min, self.x_max, self.nx + 1)
 
-        # Create the y-space
+        # Create the y-space.
         y_space = np.linspace(self.y_min, self.y_max, self.ny + 1)
 
         # Use meshgrid to create the nodes.
@@ -420,5 +420,6 @@ class PoissonFEM2D:
         """
         return self._solution
     # _end_def_
+
 
 # _end_class_
